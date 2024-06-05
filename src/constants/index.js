@@ -23,26 +23,28 @@ import {
     jobit,
     tripguide,
     threejs,
+
+
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Acerca de mi",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experiencia",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contacto",
     },
   ];
   
   const services = [
     {
-      title: "Desarrollador Web",
+      title: "Desarrollo Web",
       icon: web,
     },
     {
@@ -54,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Desarrollador con Nodejs",
+      title: "Desarrollo con Nodejs",
       icon: creator,
     },
   ];
@@ -116,55 +118,62 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Desarrollador Web",
+      company_name: "Soluciones Integrales AKEI S.C. ",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: " Febrero 2024 - Mayo 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desarrollo de sitios Web con Bootstrap.",
+        "Mantenimiento a proyectos existentes .",
+        "Debugging a código en PHP.",
+        " Ajuste de layout con Bootstrap y PHP.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Desarrollador Web",
+      company_name: "Grupo Oyarde",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: " Abril 2023 - Septiembre2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desarrollo de sitios Web con Wordpress y Elementor.",
+        "Creación de e-commerce con Woocommerce.",
+        "Manejo y respaldo de base de datos en Cpanel y Hostinger.",
+        "Modificación de plantillas Wordpress para cursos en línea.",
+        "esarrollo de animaciones con JavaScript, JQuery y CSS.",
+        "Configuración de servidores web.",
+        "Respaldo de sitios web y mantenimiento.",
+        "Uso de Wordpress, Elementor Pro, Wp Bakery, plugins y temas.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Freelance: Proyectos para negocio de agencia de viajes Cancún",
+      company_name: "Freelance",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Octubre 2022 - Febrero 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desarrollo de maquetación con HTML y CSS para presentación con clientes.",
+        "Desarrollo de operaciones CRUD con Javascript.",
+        "Diseño y desarrollo de backend con Nodejs.",
+        "Integración con base de datos MongoDB",
+        "Uso de controlador de versiones Bitbucket."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Bootcamp Full-Stack Kodemia",
+      company_name: "Kodemia",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Agosto 2021 - Julio 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desarrollo de aplicaciones Full-Stack.",
+        "CUso de React como libreria principal de Frontend.",
+        "Aprendizaje de NodeJs para desarrollo de backend.",
+        "Uso de controlador de versiones Git.",
+        "Aprendizaje de metodología Scrum.",
+        "Aprendizaje de base de datos no relacionales."
       ],
     },
   ];
@@ -198,9 +207,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Full-Stack e-commerce Sanity CMS",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Aplicación web creada con React y Next, para gestión de contenidos y pagos en línea con stripe. Implementada con Sanity como principal CMS.",
       tags: [
         {
           name: "react",
@@ -211,24 +220,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nextjs",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ecommerce-sanity-stripe-zzinue.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Modern Bank Interface Tailwind CSS",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Moderna Interfaz para bancos creada con React y Tailwind CSS. 100% responsiva.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
@@ -237,19 +246,19 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://bank-modern-app.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Bootstrap Landing Page",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Página web desarrollada con las tecnologías de Bootstrap, HTML y CSS3.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
@@ -258,7 +267,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://boostrap-bootcamp-page.vercel.app/",
     },
   ];
   
