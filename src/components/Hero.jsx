@@ -16,13 +16,13 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hola, Soy <span className="text-[#915eff]">Víctor </span>{" "}
+            Hola, Soy <span className="text-[#915eff]">Victor G. </span>{" "}
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {" "}
             Desarrollo Web
             <br className="sm:block hidden" /> Nodejs, HTML, CSS, Javascript,
-            React...{" "}
+            ReactJS{" "}
           </p>
         </div>
       </div>

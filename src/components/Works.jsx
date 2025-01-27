@@ -56,6 +56,12 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <button
+          className="px-4 py-2 bg-blue-500 text-white rounded-lg bg-red-500 hover:bg-blue-600 mt-4"
+          onClick={() => window.open(source_code_link, "_blank")}
+        >
+          Ver proyecto
+        </button>
       </Tilt>
     </motion.div>
   );
